@@ -15,8 +15,8 @@ import ts from "../assets/images/stacks-icon/typescript.png";
 
 export default function About() {
   return (
-    <div className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
-      <div className="grid py-4 lg:grid-cols-12 lg:py-10">
+    <div className="container grid items-center pb-8 pt-6 md:py-10">
+      <div className="grid gap-6 py-4 lg:grid-cols-12 lg:gap-10 lg:py-10">
         {/* left Item */}
         <div className="mb-6 self-center lg:col-span-5 ">
           <Image
@@ -32,8 +32,8 @@ export default function About() {
             {/* <h1 className="text-2xl font-semibold leading-tight tracking-tighter md:text-3xl">
               About Me
             </h1> */}
-            <h1 className="text-xl font-light leading-tight tracking-tighter md:text-xl">
-              Elendu Ifeanyi <br className="hidden sm:inline" />
+            <h1 className="text-xl font-bold leading-tight tracking-tighter md:text-xl">
+              Elendu Ifeanyi, <br className="hidden sm:inline" />
               Writer | Web Developer
             </h1>
             <p className="max-w-[700px] text-lg text-muted-foreground">
@@ -41,11 +41,10 @@ export default function About() {
               technical writing, i've worked with notable brands and always put
               forward a rich customer experience and satisfaction at the core of
               my process. I love to use modern technologies that thrive on
-              performance, security and reliability, and when it comes to front
-              end development, you can be sure i've got you covered
+              performance, securwity and reliability. 
             </p>
           </div>
-          <div className="flex flex-wrap gap-4">{/* stacks here */}
+          <div className="flex flex-wrap gap-4 lg:gap-6">{/* stacks here */}
           <Image src={html} width={40} alt="html icon" />
             <Image src={css3} width={40} alt="html icon" />
             <Image src={js} width={40} alt="html icon" />

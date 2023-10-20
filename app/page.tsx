@@ -6,6 +6,7 @@ import { buttonVariants } from "@/components/ui/button"
 import About from "@/components/about"
 
 import darkMac from "../assets/images/man-house2.jpg"
+import Portfolio from "@/components/portfolio"
 
 export default function IndexPage() {
   return (
@@ -61,6 +62,9 @@ export default function IndexPage() {
       </div>
 
       {/* Portfolio section */}
+      <div className="bg-[#10151f]">
+        <Portfolio />
+      </div>
     </section>
   )
 }
