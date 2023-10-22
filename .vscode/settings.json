@@ -2,18 +2,6 @@
   "typescript.tsdk": "../../node_modules/.pnpm/typescript@4.9.5/node_modules/typescript/lib",
   "typescript.enablePromptUseWorkspaceTsdk": true,
   "workbench.colorCustomizations": {
-    "titleBar.activeBackground": "#2cb7d6",
-    "titleBar.activeForeground": "#000000",
-    "titleBar.inactiveBackground": "#2cb7d6",
-    "titleBar.inactiveForeground": "#000000",
-    "titleBar.border": "#2cb7d6",
-    "activityBar.background": "#2cb7d6",
-    "activityBar.foreground": "#000000",
-    "statusBar.background": "#2cb7d6",
-    "statusBar.foreground": "#000000",
-    "statusBar.debuggingBackground": "#2cb7d6",
-    "statusBar.debuggingForeground": "#000000",
-    "tab.activeBorder": "#2cb7d6",
     "iLoveWorkSpaceColors": true,
     "iLoveWorkSpaceRandom": false
   }

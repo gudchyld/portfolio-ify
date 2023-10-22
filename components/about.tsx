@@ -41,7 +41,7 @@ export default function About() {
               technical writing, i've worked with notable brands and always put
               forward a rich customer experience and satisfaction at the core of
               my process. I love to use modern technologies that thrive on
-              performance, securwity and reliability. 
+              performance, security and reliability. 
             </p>
           </div>
           <div className="flex flex-wrap gap-4 lg:gap-6">{/* stacks here */}
