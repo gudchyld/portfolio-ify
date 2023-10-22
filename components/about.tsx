@@ -38,7 +38,7 @@ export default function About() {
             </h1>
             <p className="max-w-[700px] text-lg text-muted-foreground">
               With experience spanning over 2 years in web development and
-              technical writing, i've worked with notable brands and always put
+              technical writing, i&apos;ve worked with notable brands and always put
               forward a rich customer experience and satisfaction at the core of
               my process. I love to use modern technologies that thrive on
               performance, security and reliability. 
