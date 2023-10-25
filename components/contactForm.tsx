@@ -3,8 +3,10 @@
 import React from "react"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
+import { AiOutlineSwapRight } from "react-icons/ai"
 import * as z from "zod"
 
+import { Button } from "@/components/ui/button"
 import {
   Form,
   FormControl,
@@ -16,10 +18,6 @@ import {
 } from "@/components/ui/form"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Button } from "@/components/ui/button"
-import {AiOutlineSwapRight} from "react-icons/ai"
-
-
 
 const contactFormSchema = z.object({
   username: z.string().min(3).max(20),
@@ -30,16 +28,10 @@ const contactFormSchema = z.object({
 type ContactFormValues = z.infer<typeof contactFormSchema>
 
 export default function ContactForm() {
-  const useContactForm = () => {
-    const form = useForm<ContactFormValues>({
-      resolver: zodResolver(contactFormSchema),
-      mode: "onChange",
-    })
-
-    return form
-  }
-
-  const form = useContactForm()
+  const form = useForm<ContactFormValues>({
+    resolver: zodResolver(contactFormSchema),
+    mode: "onChange",
+  })
 
   function onSubmit(data: ContactFormValues) {
     // toast({
@@ -58,7 +50,6 @@ export default function ContactForm() {
         onSubmit={form.handleSubmit(onSubmit)}
         className="space-y-3 lg:space-y-3"
       >
-      
         <FormField
           control={form.control}
           name="email"
@@ -91,11 +82,13 @@ export default function ContactForm() {
             </FormItem>
           )}
         />
-         <Button variant={"secondary"} type="submit">
-            <div className="flex items-center">
-            <span>Talk to me</span> 
-            <span><AiOutlineSwapRight className="ml-2 h-4 w-4" /></span>
-            </div>
+        <Button variant={"secondary"} type="submit">
+          <div className="flex items-center">
+            <span>Talk to me</span>
+            <span>
+              <AiOutlineSwapRight className="ml-2 h-4 w-4" />
+            </span>
+          </div>
         </Button>
       </form>
     </Form>
