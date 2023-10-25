@@ -7,6 +7,7 @@ import About from "@/components/about"
 
 import darkMac from "../assets/images/man-house2.jpg"
 import Portfolio from "@/components/portfolio"
+import Contact from "@/components/contact"
 
 export default function IndexPage() {
   return (
@@ -62,8 +63,13 @@ export default function IndexPage() {
       </div>
 
       {/* Portfolio section */}
-      <div className="bg-[#10151f]">
+      <div className="bg-[#10151f] pb-14">
         <Portfolio />
+      </div>
+
+      {/* Contact Section */}
+      <div>
+        <Contact />
       </div>
     </section>
   )
