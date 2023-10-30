@@ -3,7 +3,7 @@ export type SiteConfig = typeof siteConfig
 export const siteConfig = {
   name: "Elendu Ifeanyi",
   description:
-    "Beautifully designed components built with Radix UI and Tailwind CSS.",
+    "Creative portfolio showcasing my skills, work and a way to reach me so we can do great things",
   mainNav: [
     {
       title: "Home",
@@ -11,8 +11,8 @@ export const siteConfig = {
     },
   ],
   links: {
-    twitter: "https://twitter.com/shadcn",
-    github: "https://github.com/shadcn/ui",
+    twitter: "https://twitter.com/lenduking",
+    github: "https://github.com/gudchyld",
     docs: "https://ui.shadcn.com",
   },
 }

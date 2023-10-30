@@ -55,8 +55,18 @@ export default function Portfolio() {
                       CareerShiftng
                     </h1>
                     <p className=" text-md text-muted-foreground">
-                      Project done for a Resume and Career Consulting agency, using <span className="rounded-md  text-sm text-white ">NextJs</span> and <span className="rounded-md  text-sm text-white ">tailwindcss</span> showcasing the use of a minimal and responsive design approach.
-                      </p>
+                      Project done for a Resume and Career Consulting agency,
+                      using{" "}
+                      <span className="rounded-md  text-sm text-white ">
+                        NextJs
+                      </span>{" "}
+                      and{" "}
+                      <span className="rounded-md  text-sm text-white ">
+                        tailwindcss
+                      </span>{" "}
+                      showcasing the use of a minimal and responsive design
+                      approach.
+                    </p>
                   </div>
                 </CardFooter>
               </Card>
@@ -71,13 +81,22 @@ export default function Portfolio() {
                   />
                 </CardContent>
                 <CardFooter>
-                <div className="flex flex-col items-start gap-2 lg:px-2">
+                  <div className="flex flex-col items-start gap-2 lg:px-2">
                     <h1 className="text-lg font-semibold leading-tight tracking-tighter md:text-lg">
                       Multi-Step Form
                     </h1>
                     <p className=" text-md text-muted-foreground">
-                      Project done for a Resume and Career Consulting agency, using <span className="rounded-md  text-sm text-white ">NextJs</span> and <span className="rounded-md  text-sm text-white ">tailwindcss</span> showcasing the use of a minimal and responsive design approach.
-                      </p>
+                      A frontend mentor project done using{" "}
+                      <span className="rounded-md  text-sm text-white ">
+                        React
+                      </span>{" "}
+                      and{" "}
+                      <span className="rounded-md  text-sm text-white ">
+                        tailwindcss
+                      </span>{" "}
+                      to simulate form verification and processing in multiple
+                      steps. This helped me improve in my layout skills
+                    </p>
                   </div>
                 </CardFooter>
               </Card>
@@ -92,13 +111,23 @@ export default function Portfolio() {
                   />
                 </CardContent>
                 <CardFooter>
-                <div className="flex flex-col items-start gap-2 lg:px-2">
+                  <div className="flex flex-col items-start gap-2 lg:px-2">
                     <h1 className="text-lg font-semibold leading-tight tracking-tighter md:text-lg">
                       Movie Watchlist
                     </h1>
                     <p className=" text-md text-muted-foreground">
-                      Project done for a Resume and Career Consulting agency, using <span className="rounded-md  text-sm text-white ">NextJs</span> and <span className="rounded-md  text-sm text-white ">tailwindcss</span> showcasing the use of a minimal and responsive design approach.
-                      </p>
+                      Project done for a Resume and Career Consulting agency,
+                      using{" "}
+                      <span className="rounded-md  text-sm text-white ">
+                        NextJs
+                      </span>{" "}
+                      and{" "}
+                      <span className="rounded-md  text-sm text-white ">
+                        tailwindcss
+                      </span>{" "}
+                      showcasing the use of a minimal and responsive design
+                      approach.
+                    </p>
                   </div>
                 </CardFooter>
               </Card>
@@ -113,13 +142,23 @@ export default function Portfolio() {
                   />
                 </CardContent>
                 <CardFooter>
-                <div className="flex flex-col items-start gap-2 lg:px-2">
+                  <div className="flex flex-col items-start gap-2 lg:px-2">
                     <h1 className="text-lg font-semibold leading-tight tracking-tighter md:text-lg">
                       Quizzical
                     </h1>
                     <p className=" text-md text-muted-foreground">
-                      Project done for a Resume and Career Consulting agency, using <span className="rounded-md  text-sm text-white ">NextJs</span> and <span className="rounded-md  text-sm text-white ">tailwindcss</span> showcasing the use of a minimal and responsive design approach.
-                      </p>
+                      Project done for a Resume and Career Consulting agency,
+                      using{" "}
+                      <span className="rounded-md  text-sm text-white ">
+                        NextJs
+                      </span>{" "}
+                      and{" "}
+                      <span className="rounded-md  text-sm text-white ">
+                        tailwindcss
+                      </span>{" "}
+                      showcasing the use of a minimal and responsive design
+                      approach.
+                    </p>
                   </div>
                 </CardFooter>
               </Card>
